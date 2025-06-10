@@ -1,1 +1,5 @@
-requests
+echo "pytest>=7.4.0
+pytest-asyncio>=0.23.0
+requests>=2.32.0" >> requirements.txt         # ← requests は auto_issue.py 用
+git add requirements.txt
+git commit -m "chore(deps): add pytest, pytest-asyncio, requests"
