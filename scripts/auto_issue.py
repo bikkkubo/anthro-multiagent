@@ -19,7 +19,7 @@ import anthropic
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 GH_TOKEN          = os.getenv("GH_TOKEN")
 REPO              = os.getenv("GITHUB_REPOSITORY")           # 例: bikkkubo/anthro-multiagent
-MODEL             = "claude-3-opus-2025-06-06"
+MODEL             = "claude-3-opus-20240229"
 
 if not all([ANTHROPIC_API_KEY, GH_TOKEN, REPO]):
     sys.exit("❌ Missing required environment variables.")
