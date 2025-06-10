@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'   # ローカルと合わせる
+          python-version: '3.12'   # ローカルと合わせる
 
       - name: Install deps
         run: |
